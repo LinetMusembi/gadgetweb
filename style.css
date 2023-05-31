@@ -1,7 +1,40 @@
 body{
     font-size: x-large;
 }
+#Products{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* gap:30px; */
+  margin-top: 30px;
+  padding-left: 7%;
+  padding-top: 5%;
+}
+#Products img{
+  width: 300px;
+}
+#Products button{
+  background-color: yellow;
+  padding: 20px 20px;
+  border-style: none;
+}
 
+.Promax{
+  display: flex;
+  gap: 10%;
+}
+ #head{
+  width: 700px;
+  height: 450px;
+}
+#head2{
+  width: 500px;
+  height: 350px;
+  padding-top: 14%;
+}
+#cell{
+  margin-left: 4%;
+  width: 85%;
+}
 
 .navbar {
     display: flex;
